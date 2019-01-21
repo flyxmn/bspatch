@@ -2,7 +2,7 @@
 android使用bsdiff和bspatch进行增量更新
 我将bsdiff和bspach的C语言代码打包成动态库供主项目调用
 具体使用方法
-/**
+    /**
      * @param oldPath   旧的安装包路径
      * @param newPath   新的安装包路径
      * @param patchPath 差分包路径
